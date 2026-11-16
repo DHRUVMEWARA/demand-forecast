@@ -13,7 +13,10 @@
 2. Save your Kaggle API token in `~/.kaggle/access_token`
 3. Download:
    kaggle competitions download -c store-sales-time-series-forecasting -p data/raw
+4. Load into SQLite:
+   python src/demand_forecast/load_data.py
 
+**train.csv:** 3,000,888 rows, 2013-01-01 to 2017-08-15 (54 stores × 33 product families)
 ## Setup
 pip install -r requirements.txt
 
@@ -23,3 +26,4 @@ pip install -r requirements.txt
 - [ ] Download and explore the data
 - [ ] Baseline forecast
 - [ ] ML model and evaluation
+- [x] Download the data (explore next)

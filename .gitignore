@@ -1,5 +1,5 @@
 .venv/
-..env
+.env
 __pycache__/
 .ipynb_checkpoints/
 data/raw/*
@@ -227,3 +227,6 @@ data/raw/*
 kaggle.json
 access_token
 .venv/
+
+data/*.db
+data/raw/*.zip
