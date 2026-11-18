@@ -26,13 +26,18 @@ pip install -r requirements.txt
 - [ ] Download and explore the data
 - [ ] Baseline forecast
 - [ ] ML model and evaluation
-- [x] Download the data (explore next)## EDA findings
+- [x] Download the data (explore next)
+## EDA findings
 
 ![Daily sales trend](docs/daily_sales_trend.png)
 
-1. **Sales are growing.** Average daily sales rose from __ in 2013 to __ in 2017 (__%), with a dip to near zero every 1 January (stores closed).
-2. **A few families drive the business.** __, __ and __ make up __% of all sales, so forecast accuracy on these matters most.
-3. **Holidays and promotions lift sales.** National holidays average __% above normal days, and store-family-days on promotion sell __% more than those without. Part of the promo effect comes from promotions being used more on big families, so the model needs both features rather than taking this number at face value.
+1. **Sales are growing.** Average daily sales more than doubled, from ~386K in 2013 to ~856K in 2017 (+122%; 2017 data runs to mid-August). Sales drop to near zero every 1 January, when stores are closed.
+2. **A few families drive the business.** GROCERY I, BEVERAGES and PRODUCE make up 64% of all sales, so forecast accuracy on these matters most.
+3. **Holidays and promotions lift sales.** National holidays average +19% above normal days, and store-family-days on promotion sell __% more than those without. Part of the promo effect comes from promotions being used more on big families, so the model needs both features rather than taking this number at face value.
 
 ![Top 10 families](docs/top10_families.png)
 ![Holidays and promotions vs sales](docs/holiday_promo_vs_sales.png)
+
+
+
+
