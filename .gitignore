@@ -1,0 +1,5 @@
+# data — never commit
+data/
+*.db
+*.sqlite
+*.csv
